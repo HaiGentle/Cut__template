@@ -8,12 +8,19 @@
     <link type="text/css" rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
+    <button id="btn-load-top" onclick="topFunction()">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
     <div id="header">
         <img id="head-vid" src="../image/bground-head.jpg">
         <div id="nav-bar">
+            <button id="btn__bar">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
             <div class="navb-logo">
                 <a href="#">
                     <h2 class="navb-logo-link">SCUBA</h2>
@@ -22,6 +29,9 @@
                         <span class="navb-logo-link">PRO</span>
                     </div>
                 </a>
+            </div>
+            <div class="navb-search">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
             </div>
             <div class="navb-link">
                 <div class="navb-link-TBOT">
@@ -73,6 +83,9 @@
                 Fights for Ocean </br>
                 Conservation
             </div>
+            <div class="hbody-left hbody-left-none">
+                Master Scuba Diver Fights for Ocean Conservation
+            </div>
             <div class="hbody-right">
                 <div class="hbody-right-tmb">
                     <img class="hbody-right-image" src="../image/img-hnav-top.jpg" height="106px" width="106px"
@@ -101,7 +114,7 @@
             </div>
         </div>
         <div class="but-hmid">
-            <button class="but-hmid-click">
+            <button class="but-hmid-click" onclick="scrollDown()">
                 <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
             </button>
         </div>
